@@ -1,5 +1,4 @@
-
-DRIVERPATH = ../ChibiOS-Drivers
+DRIVERPATH = $(CHIBIOS_DRIVERS)
 
 DRIVERSRC = $(DRIVERPATH)/src/drivers.c
 DRIVERSRC += $(DRIVERPATH)/src/timcap.c
